@@ -1,12 +1,9 @@
 import { Layout } from "@components/common"
+import { Onboarding } from "@components/onboarding"
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        Main container
-      </div>
-    </div>
+    <Onboarding />
   )
 }
 
